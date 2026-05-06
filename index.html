@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>40 Años de Betsy - Cowgirl Party</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Rye&family=Special+Elite&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="bgMusic" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-17.mp3" type="audio/mpeg">
+    </audio>
+
+    <section class="hero">
+        <div class="hero-content">
+            <p>¡ESTÁS INVITADO!</p>
+            <h1>BETSY'S 40</h1>
+            <button class="btn-start" onclick="startExperience()">🌵 INICIAR RECORRIDO 🌵</button>
+        </div>
+    </section>
+
+    <div class="content" id="mainContent">
+        
+        <div class="card">
+            <h2>¡SE BUSCA PARA CELEBRAR!</h2>
+            <p>Acompáñame a celebrar  otro año de vida conmigo  su presencia  será esencial para garantizar  la diversión. 
+Este año merece ser celebrado de manera especial  será un honor contar contigo</p>
+            <hr class="divider">
+            <div id="countdown">
+                <div class="time-box"><span id="days">00</span><br><small>Días</small></div>
+                <div class="time-box"><span id="hours">00</span><br><small>Hrs</small></div>
+                <div class="time-box"><span id="mins">00</span><br><small>Min</small></div>
+                <div class="time-box"><span id="secs">00</span><br><small>Seg</small></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>📍 UBICACIÓN</h3>
+            <p><br></p>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.2075196283695!2d-99.1399557!3d19.7037872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f4da02467a9b%3A0x5066833c4fe0a3e2!2sHombres%20Ilustres%20583%2C%20San%20Isidro%2C%2054880%20Melchor%20Ocampo%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1778084916602!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <a href="https://maps.app.goo.gl/P58PHNG3nXBq32DBA" target="_blank" class="btn-action">Abrir en Google Maps</a>
+        </div>
+
+        <!-- ======== DRESS CODE ======== -->
+<section class="dresscode-section">
+  <p class="section-title">👗 Código De Vestimenta</p>
+  <p class="section-subtitle">¡Saca tu lado más Western!</p>
+  
+  <div class="dresscode-container">
+    <!-- Card: Lo que SI -->
+    <div class="dress-card yes-card">
+      <h3>SÍ LLEVAR</h3>
+      <ul class="dress-list">
+        <li><span>👢</span> Botas vaqueras</li>
+        <li><span>🤠</span> Sombrero</li>
+        <li><span>👖</span> Mezclilla / Denim</li>
+        <li><span>✨</span> Flecos y cuero</li>
+        <li><span>🌸</span> Vestidos florales</li>
+      </ul>
+    </div>
+
+    <!-- Card: Lo que NO -->
+    <div class="dress-card no-card">
+      <h3>EVITAR</h3>
+      <ul class="dress-list">
+        <li><span>👠</span> Tacones de aguja</li>
+        <li><span>👔</span> Ropa muy formal</li>
+        <li><span>⚫</span> Colores oscuros</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+        <div class="card ticket">
+            <div class="ticket-header">🎫 PASE PERSONAL</div>
+            <p>Presenta este folio digital al llegar:</p>
+            <div class="folio" id="folioNumber">GENERANDO...</div>
+            <p class="details"><strong>Fecha:</strong> 6 de Junio, 2026<br><strong>Hora:</strong> 3:30 PM</p>
+            <a href="#" class="btn-whatsapp" id="whatsappBtn">Confirmar por WhatsApp</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
