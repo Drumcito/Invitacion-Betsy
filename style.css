@@ -86,7 +86,6 @@ iframe { width: 100%; height: 200px; border: none; }
     color: white;
 }
 .btn-action { background: var(--cowboy-brown); }
-<<<<<<< HEAD
 .btn-whatsapp { background: #25D366; }
 
 .dresscode-section {
@@ -162,6 +161,3 @@ iframe { width: 100%; height: 200px; border: none; }
 .dress-list li:last-child {
     border-bottom: none;
 }
-=======
-.btn-whatsapp { background: #25D366; }
->>>>>>> e51caa7348e8c67b280f501ce2ccd9dafe057a69
