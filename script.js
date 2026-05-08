@@ -8,13 +8,17 @@ document.getElementById('whatsappBtn').href = `https://wa.me/${phone}?text=${mes
 
 // 2. Función de Inicio
 function startExperience() {
-    // Reproducir música
-    const music = document.getElementById('bgMusic');
-    music.play().catch(e => console.log("El navegador bloqueó el auto-play inicial"));
 
-    // Scroll automático al contenido
-    const content = document.getElementById('mainContent');
-    content.scrollIntoView({ behavior: 'smooth' });
+    // reproducir música
+    const music = document.getElementById("bgMusic");
+    music.play();
+
+    // mostrar contenido
+    document.getElementById("mainContent").style.display = "block";
+
+    // scroll suave
+    document.getElementById("mainContent")
+        .scrollIntoView({ behavior: "smooth" });
 }
 
 // 3. Cuenta Regresiva
